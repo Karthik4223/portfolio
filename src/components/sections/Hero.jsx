@@ -42,7 +42,7 @@ const Hero = () => {
                 <div className="hero-visual">
                     <div ref={imgRef} className="profile-image-container animate-item">
                         <div className="image-glow"></div>
-                        <img src="/Karthik1.jpg" alt="Karthik Malasani" className="profile-img" />
+                        <img src={`${import.meta.env.BASE_URL}Karthik1.jpg`} alt="Karthik Malasani" className="profile-img" />
                         <div className="corner-accent top-left"></div>
                         <div className="corner-accent bottom-right"></div>
                     </div>
