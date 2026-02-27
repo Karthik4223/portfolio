@@ -35,7 +35,7 @@ const Experience = () => {
                                     <h3>Software Development Intern</h3>
                                     <p className="company">Optival Health Solutions (MedPlus)</p>
                                 </div>
-                                <span className="date">June 2025 – Dec 2025</span>
+                                <span className="date">June 2025 – Present</span>
                             </div>
                             {/* <div className="exp-description">
                                 <p>Integrated smart wearable ecosystems into a native Android environment, specifically focusing on the <strong>Smart Ring</strong> platform.</p>
