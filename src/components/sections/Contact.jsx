@@ -27,7 +27,8 @@ const Contact = () => {
                 <h2 className="section-title animate-item">GET IN TOUCH</h2>
                 <div className="contact-links animate-item">
                     <a href="mailto:karthikmalasani21@gmail.com" className="contact-btn">Email Me</a>
-                    <p className="meta">9347139149 | Ongole, India</p>
+                    <p className="meta">+91 9347139149</p>
+                    <p className='meta'>Hyderabad, Telangana, India</p>
                 </div>
             </div>
         </section>

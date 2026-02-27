@@ -24,6 +24,10 @@ body.modal-active {
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -151,31 +155,25 @@ canvas {
 
 .portfolio-section {
     min-height: 100vh;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6rem 10% 2rem;
-    position: relative;
-    background-color: #050505;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    overflow: hidden;
-}
-
-.section-content {
-    max-width: 1400px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
+    padding: 10rem 5% 6rem;
     position: relative;
-    height: 100%;
-    overflow-y: auto;
-    scrollbar-width: none;
+    background-color: #050505;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    z-index: 10;
 }
 
-.section-content::-webkit-scrollbar {
-    display: none;
+.section-content {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 /* Typography */
@@ -190,11 +188,10 @@ canvas {
 }
 
 .section-title {
-    margin-top: 40px;
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: clamp(2.5rem, 6vw, 4rem);
     font-family: var(--font-serif);
     font-weight: 700;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     position: relative;
     display: inline-block;
 }
@@ -238,10 +235,11 @@ canvas {
 
 .hero-layout {
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 4rem;
+    justify-content: center;
+    /* Center items instead of space-between */
+    gap: clamp(2rem, 10vw, 8rem);
     width: 100%;
 }
 
