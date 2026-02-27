@@ -225,6 +225,7 @@ canvas {
     border: 5px solid rgba(212, 175, 55, 0.2);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     perspective: 1000px;
+    margin-top: -60px;
 }
 
 .profile-img {
@@ -262,7 +263,7 @@ canvas {
 .profile-image-container {
     position: relative;
     width: clamp(250px, 40vh, 450px);
-    height: clamp(250px, 40vh, 450px);
+    height: clamp(290px, 40vh, 450px);
     border-radius: 20px;
     /* Modern square-ish rounded look */
     overflow: visible;
